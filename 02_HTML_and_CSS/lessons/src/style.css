@@ -1,0 +1,46 @@
+/* External CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+body {
+    padding: 10px;
+    border: 2px black solid;
+    margin: 10px;
+    width: 250px;
+}
+div {
+  background-color: rgb(170, 133, 83);
+  color: white;
+}
+header {
+    background-color: lightblue;
+}
+
+/* Class selector */
+.main-container {
+    background-color: aquamarine;
+    color: darkslategray;
+}
+
+.main-container div p {
+    background-color: blueviolet;
+    color: white;
+}
+div div {
+    background-color: aquamarine;
+    color: darkslategray;
+}
+/* Id selector */
+/* #socials {
+    background-color: blueviolet;
+    color: black;
+} */
+
+#socials p {
+    background-color: blueviolet;
+    color: black;
+}
